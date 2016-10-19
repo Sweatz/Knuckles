@@ -21,6 +21,7 @@ namespace Pixels_in_Window
         {
             int pixels = getPixels();
             pixelsLabel.Text = "This window contains " + pixels + " pixels.";
+            this.BackColor = System.Drawing.Color.GreenYellow;
         }
 
         private int getPixels()
